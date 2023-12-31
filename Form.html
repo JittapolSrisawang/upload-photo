@@ -1,0 +1,53 @@
+<form id="myForm" class="needs-validation" novalidate>
+            <div class="row">
+                <div class="col-md-12 mt-2">
+                    <label for="id" class="form-label">รหัสนักศึกษา</label>
+                    <input type="text" class="form-control" name="id" id="id" required>
+                    <div class="invalid-feedback">
+                        กรุณาใส่ รหัสนักศึกษา
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-2">
+                    <label for="name" class="form-label">ชื่อ-นามสกุล</label>
+                    <input type="text" class="form-control" name="name" id="name" required>
+                    <div class="invalid-feedback">
+                        กรุณาใส่ ชื่อ-นามสกุล
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-2">
+                    <label for="password" class="form-label">หมายเลขบัตรประชาชน</label>
+                    <input type="password" class="form-control" name="password" id="password" required>
+                    <div class="invalid-feedback">
+                        กรุณาใส่ หมายเลขบัตรประชาชน
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-2">
+                    <label class="form-label">อัพโหลดไฟล์รูปถ่าย</label>
+                    <input type="file" name="file1" class="form-control" required>
+                    <div class="invalid-feedback">
+                        กรุณาอัพโหลด ไฟล์รูปถ่าย
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-2">
+                    <label class="form-label">อัพโหลดไฟล์สำเนาบัตรประชาชน</label>
+                    <input type="file" name="file2" class="form-control" required>
+                    <div class="invalid-feedback">
+                        กรุณาอัพโหลด ไฟล์สำเนาบัตรประชาชน
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12 mt-4 text-center">
+                    <button type="submit" class="btn btn-lg text-white" id="btn" style="background-color:#A52A2A;">ส่งข้อมูล</button>
+                </div>
+            </div>
+</form>
